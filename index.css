@@ -48,11 +48,40 @@ nav ul li:hover {
   background-color: black;
 }
 
-.content{
-  display: flex;
-  justify-content: center;
+
+
+
+.slide{
+  margin:0;
+  padding:0;
+  width: 100%;
+  height: auto;
+ 
 }
 
+.arrow{
+  cursor:pointer;
+  color:black;
+  border-style: solid;
+  
+  
+}
+
+#arrow-left{
+  position: relative;
+  border-width: 20px 30px 20px 0;
+  border-color: transparent #fff transparent transparent;
+ 
+  left: 120%;
+}
+
+#arrow-right{
+  position: relative;
+  border-width: 20px 0 20px 30px;
+  border-color: transparent transparent transparent #fff;
+  
+  right: 120%;
+}
 
 footer {
   display: flex;
