@@ -49,6 +49,7 @@ nav ul li:hover {
 }
 
 
+/* HOME */
 
 
 .slide{
@@ -82,6 +83,26 @@ nav ul li:hover {
   
   right: 120%;
 }
+
+/* END HOME */
+
+/* PROJECTS */
+
+
+
+/*  END PROJECTS */
+
+
+/* MEMBERS */
+.board-member-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  
+  
+}
+/* END MEMBERS*/
 
 footer {
   display: flex;
